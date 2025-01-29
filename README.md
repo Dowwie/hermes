@@ -1,4 +1,8 @@
-# Hermes - Webhook Processing Pipeline
+<div align="center">
+<h1>Hermes - Webhook Processing Pipeline</h1>
+<img src="/assets/logo.jpg" alt="Logo" width="300" style="display: block; margin-top: 0; margin-bottom: 0;"/>
+</div>
+
 
 ## Quick Start
 
