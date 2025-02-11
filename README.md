@@ -28,6 +28,8 @@ mix phx.server
 
 ## Overview
 
+The main reason that this project exists is to act as a working example of Elixir's pipeline processing capabilities.
+
 Hermes is a webhook processing system designed for high throughput and low latency. The system implements a complete three-stage pipeline architecture:
 
 1. **Ingestion** - Fast webhook acceptance with queue-based buffering
@@ -35,6 +37,7 @@ Hermes is a webhook processing system designed for high throughput and low laten
 3. **Dispatch** - Reliable delivery through provider-specific clients
 
 The system features automatic back-pressure propagation from persistent storage through to upstream API clients, ensuring stability under load.
+
 
 
 ## Architecture
